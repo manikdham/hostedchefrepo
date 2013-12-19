@@ -1,0 +1,4 @@
+hostedchefrepo
+==============
+
+MyRepo hosted chef
