@@ -1,0 +1,16 @@
+<html>
+	<body>
+		<h1>
+			My compnay name is <%= node["company"] %> 
+			<br>
+			Hello Manik. This is <%= node["fqdn"] %> !!
+			<p>
+			This server <%= node["memory"] ["total"].to_i / 1024 %> MB memory.
+			
+			</p>
+			<p> 
+				This is from version 0.2.0 of the apache cookbook. 
+			</p>
+		</h1>
+	</body>
+</html>
